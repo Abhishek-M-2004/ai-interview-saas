@@ -30,7 +30,7 @@ with st.sidebar:
         st.rerun()
 
 st.title("🎓 AI Interview Practice SaaS")
-st.caption("Real-time Interview Coaching powered by Groq LPU™ Infrastructure")
+st.caption("Real-time Interview Coaching powered by Groq")
 
 # Display Chat History
 for message in st.session_state.messages:
