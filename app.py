@@ -51,7 +51,7 @@ if prompt := st.chat_input("Your response (Type 'Start' to begin)"):
             context.extend(st.session_state.messages)
             
             completion = client.chat.completions.create(
-                model="llama3-70b-8192",
+                model="llama-3.3-70b-versatile",
                 messages=context
             )
             response = completion.choices[0].message.content
